@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>A Mother's Nook</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div id = "welcome">
+      <h2>A Mother's Nook</h2>
+    </div>
+
+    <div id="nav_bar">
+      <ul id="nav_bar_list">
+        <li id="nav_bar_elem"><a href="created-in-the-kitchen.html">Created In The Kitchen</a></li>
+        <li id="nav_bar_elem"><a href="cultivated-in-the-garden.html">Growing In The Garden</a></li>
+        <li id="nav_bar_elem"><a href="woodworking.html">Woodworking</a></li>
+        <li id="nav_bar_elem"><a href="about-me.html">About Me</a></li>
+      </ul>
+    </div>
+
+    <div class = "content_links">
+      <a href="created-in-the-kitchen.html">
+        <div id = "cooking">
+          <h3>Created in the Kitchen</h3>
+          <div class = "pic">
+            <img src="harvest.jpg"/>
+          </div>
+          <div  class="descrpn" id="cooking_descrpn">
+            <p>Check out all of my latest
+              and greatest meals. I love to explore new tastes and cuisines,
+              <br>
+              so you'll find food from a number of global regions.
+            </p>
+            <br>
+            <h4>By popular request, I will soon be adding recipes!</h4>
+          </div>
+        </div>
+      </a>
+
+      <a href="about-me.html">
+        <div id = "about_me">
+          <h3>About Me</h3>
+          <div id = "self_pic">
+            <img src = "too pretty.jpg"
+            width = "155", height = "155">
+          </div>
+          <div>
+            <p>Get to know a little more about me!</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="slideshow_pics">
+      <div class="mySlides fade">
+        <img src="antique decoration.jpg"
+        width = "261", height = "261">
+      </div>
+      <div class="mySlides fade">
+        <img src="family dog.jpg"
+        width = "261", height = "261">
+      </div>
+      <div class="mySlides fade">
+        <img src="whole fam.jpg"
+        width = "261", height = "261">
+      </div>
+      <div class="mySlides fade">
+        <img src="the cutest nephew.jpg"
+        width = "261", height = "261">
+      </div>
+      <div class="mySlides fade">
+        <img src="flowers.jpg"
+        width = "261", height = "261">
+      </div>
+      <div class="mySlides fade">
+        <img src="spider.jpg"
+        width = "261", height = "261">
+      </div>
+
+        <div style="text-align:center">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+
+    <div class="content_links">
+
+    <a href="cultivated-in-the-garden.html">
+      <div id = "gardening">
+        <h3>Growing in the Garden</h3>
+        <div class = "pic">
+          <img src="drying herbs.jpg"
+          width = "197.5", height = "240">
+        </div>
+        <div class="descrpn" id = "garden_descrpn">
+          <p>Sunshine and soil abound! I created a personal
+          sanctuary in my own backyard, in the <br>form of a garden. This is
+          where I love spending my sunny days!<br>
+          <br>
+          <br>
+          <br>
+          See my tips on how to elevate your home garden
+          to the next level.</p>
+        </div>
+      </div>
+    </a>
+    <a href="woodwork.html">
+      <div id = "woodwork">
+        <h3>Woodwork</h3>
+        <img src="card pic.jpg"
+        width = "240", height = "240">
+        <div class = "descrpn" id = "wood_descrpn">
+          <p>I'm asked all the time where I find all of my wood pieces
+            around the garden. Well, <br>I make them! I started building
+            last fall and have been hooked since. And since <br>my work seems
+            popular, I'm excited to add this section to my online collection!
+            <br>
+            <br>
+            <br>
+            <br>
+            Check back when the weather is nice again for more updates!
+          </p>
+        </div>
+      </div>
+    </a>
+
+      <div id = "contact">
+        <h3>Contact Me</h3>
+        <form id="form" action = "http://httpbin.org/post" method = "post">
+          <fieldset>
+            <label>Name:</label>
+            <br>
+            <input type="text" name="Name">
+            <br>
+            <br>
+            <label>Email Adress:</label>
+            <br>
+            <input type="text" name="Email">
+            <br>
+            <br>
+            <label>Message:</label>
+            <br>
+            <input type="text" name="message" placeholder="Your Message Here">
+            <br>
+            <input id="Submit" type="submit" value="Submit">
+            <p id="confirm"></p>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <script src="proj_script.js"></script>
+</body>
+
+</html>

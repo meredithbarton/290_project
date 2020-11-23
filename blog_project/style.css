@@ -1,0 +1,242 @@
+body {
+  font-family: Georgia;
+  padding: 20px;
+  background-image: linear-gradient( #b3cccc, #004d1a);
+  color: #8c8c8c;
+}
+
+#welcome {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-image: url("marble.jpg");
+}
+
+.content_links{
+  color: #4d4d4d;
+}
+
+#cooking {
+  background-color:  #f2f2f290;
+  padding: 20px;
+  margin: 15px;
+  float: left;
+  width: 68%;
+}
+
+#gardening {
+  background-color: #f2f2f2A0;
+  padding: 20px;
+  margin: 15px;
+  float: left;
+  width: 68%;
+}
+
+#garden_descrpn, #wood_descrpn{
+  padding-top: 20px;
+  margin-right: 50px;
+}
+
+#cooking_descrpn {
+  margin-right: 45px;
+}
+
+#about_me {
+  background-color: #f2f2f290;
+  padding: 20px;
+  margin: 15px;
+
+  float: left;
+  width: 21%;
+  text-align: center;
+}
+
+#woodwork{
+  background-color: #f2f2f2B0;
+  padding: 20px;
+  margin: 15px;
+  float: left;
+  width: 68%;
+}
+
+#contact{
+  background-color: #f2f2f2;
+  background-image: url("marble2.jpg");
+  padding: 20px;
+  padding-bottom: 33px;
+  margin: 15px;
+  float: left;
+  width: 21%;
+}
+
+#Submit{
+  margin-top: 15px;
+}
+
+.pic {
+  float: left;
+}
+.descrpn {
+  float:right;
+  margin-right: 5px;
+}
+
+a:link,a:visited {
+  color:#595959;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#000000;
+}
+
+#nav_bar {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #595959
+}
+
+#nav_bar_elem {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+#nav_bar_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow_pics {
+  background-color: #f2f2f2;
+  background-image: url("marble2.jpg");
+  padding: 20px;
+  margin: 15px;
+  padding-top: 33px;
+  float: left;
+  width: 21%;
+  text-align: center;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: static;
+  margin-bottom: 42px;
+  padding: 16px;
+  color: #666666;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.5s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: .7s;
+  animation-name: fade;
+  animation-duration: .7s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6}
+  to {opacity: 1}
+}
+
+/* About Me Content */
+#about-me-content {
+  color: #666666;
+  background-color: #f2f2f2;
+  width: 75%;
+  height:400px;
+  position: relative;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 140px;
+  overflow: auto;
+}
+
+#about-me-p, #meaning_of_life, #meaning_elem {
+  text-align: center;
+}
+
+#meaning_of_life {
+  margin: 0;
+  padding: 0;
+  padding-left: 350px;
+}
+
+#meaning_elem {
+  padding-right: 350px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#left_img {
+  float: left;
+  margin-right: 10px;
+}
+
+#right_img {
+  margin-left: 10px;
+}
+
+/* Growing In The Garden, Created In The Kitchen, and Woodworking Content */
+
+.page_div {
+  background-color: #f2f2f285;
+  color: #4d4d4d;
+  padding: 15px;
+  width: 75%;
+  text-align: center;
+  margin: 50px;
+  margin-left: 120px;
+}
+
+
+figure {
+  display: inline-block;
+  padding: 5px;
+}
+
+.box {
+  background-image: url("marble.jpg");
+  border: 3px #FFFFFF solid;
+  text-align: center;
+  margin: 35px;
+  width: 80%;
+  margin-left: 120px;
+}
